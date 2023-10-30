@@ -8,10 +8,11 @@ mongoDB();
 
 // CORS middleware
 app.use(cors({
-  origin: "http://localhost:3000/",
+  origin: "http://localhost:3000",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // enable set cookie
 }));
+
 
 app.use(express.json());
 app.use('/api', require("./Routes/RegistrationUser"));
