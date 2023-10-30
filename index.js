@@ -8,7 +8,7 @@ mongoDB();
 
 // CORS middleware
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://653f4e2da84654261bf07d61--melodic-faloodeh-f730f3.netlify.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // enable set cookie
 }));
